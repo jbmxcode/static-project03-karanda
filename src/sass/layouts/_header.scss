@@ -1,0 +1,40 @@
+.site-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: rgba($c-black, .5);
+
+    &__title { 
+        flex: 1;
+        margin: 1rem 0;
+
+        a {
+            img {
+                display: block;
+                max-width: 351px;
+                width: 60%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    @include respond-to($vp-large) {
+        .content-row { @include width-constrain($site-width-inner); }
+
+        .content-column { @include flex-all($align: center); }
+
+        &__title { 
+            margin: 0;
+
+            a {
+                position: relative;
+                top: 20px;
+                z-index: 2;
+
+                img { margin: 0; }
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+body {
+    &.models {
+        .hero__image_caption .text p:first-child,
+        .hero__image_caption .price { color: $secondary-color; }
+    }
+}

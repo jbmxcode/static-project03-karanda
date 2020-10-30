@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+
+body {
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	font: {
+		size: $base-font-size;
+		family: $primary-font;
+	}
+	color: $c-text;
+}
+
+a { transition: color .5s, background-color .5s; }
+
+.container,
+.page .content__inner {
+	padding: 0 1rem;
+
+	@include respond-to($vp-large) {
+		@include width-constrain($site-width-inner);
+	}
+
+	@include respond-to($vp-max) { padding: 0; }
+}
+
+.content {
+	&__header { 
+		margin: 3rem 0; 
+		padding: 0 1rem;
+	}
+
+	@include respond-to($vp-large) {
+		&__header { 
+			margin: 7rem 0; 
+			padding: 0;
+
+			> * { margin-left: .875rem; }
+
+			.title { margin: 0 .875rem 0 0; }
+		}
+	}
+}

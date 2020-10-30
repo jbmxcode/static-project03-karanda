@@ -1,0 +1,59 @@
+// Responsive
+
+$vp-small				: 320px;	// small size 
+$vp-mid					: 768px;	// mid size
+$vp-large				: 1024px;	// large size
+
+$vp-max					: 1366px;	// max viewport
+
+$site-width				: $vp-max;
+$site-width-inner		: 1068px;
+
+// Logos Sizes
+
+$header-logo-height		: 150px;
+$header-logo-width		: 150px;
+$footer-logo-height		: 173px;
+$footer-logo-width		: 523px;
+
+// Colors
+
+$c-white                : rgb(255,255,255);
+$c-black                : rgb(0,0,0);
+$c-grey                 : rgb(62, 62, 62);
+$c-grey-light           : rgb(248, 248, 248);
+$c-text                 : rgb(102, 102, 102);
+
+$primary-color			: rgb(66, 40, 27);
+$color-over-primary		: $c-white;
+
+$secondary-color		: rgb(71, 176, 136);
+$color-over-secondary	: $c-white;
+
+$tertiary-color		    : rgb(240, 175, 45);
+$color-over-tertiary	: $c-white;
+
+$fourth-color		    : rgb(224, 109, 52);
+$color-over-fourth	    : $c-white;
+
+// Social Colors
+
+$facebook				: rgb(24,119,242);
+$twitter				: rgb(29,161,242);
+$youtube				: rgb(255,0,0);
+$instagram				: rgb(215,53,118);
+
+// Logos Images
+
+$header-logo-image			: "images/header_logo.svg";
+$footer-logo-image			: $header-logo-image;
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,700&family=Oswald:wght@200;400&display=swap');
+
+$primary-font			    : 'Open Sans', sans-serif;
+$secondary-font             : 'Oswald', sans-serif;
+
+$base-font-size			    : 18px;
+

@@ -1,0 +1,20 @@
+.c {
+    &-primary { color: $primary-color; }
+    &-secondary { color: $secondary-color; }
+    &-tertiary { color: $tertiary-color; }
+    &-fourth { color: $fourth-color; }
+}
+
+.bg {
+    &-primary { background-color: $primary-color; }
+    &-secondary { background-color: $secondary-color; }
+    &-tertiary { background-color: $tertiary-color; }
+    &-fourth { background-color: $fourth-color; }
+}
+
+.contrast {
+    &-primary { color: $color-over-primary; }
+    &-secondary { color: $color-over-secondary; }
+    &-tertiary { color: $color-over-tertiary; }
+    &-fourth { color: $color-over-fourth; }
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karánda | Casas</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body class="home">
+    {{> layouts/header }}
+
+    {{!-- Modules --}}
+
+    <main class="site-main" aria-labelledby="Main Site Content" tabindex="-1" role="main">
+        <div class="content-row">
+            <div class="content-column">
+                {{> pages/index }}
+            </div>
+        </div>
+    </main>
+
+    {{!-- ./end Modules --}}
+
+    {{> layouts/footer }}
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
