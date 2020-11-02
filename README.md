@@ -29,6 +29,8 @@ Los javascript como fueron funciones relativamente pequeñas se crearon unas car
 
 Para el slider se utilizó **Swiper** como librería de javascript (sin dependencias) y para el json se creó un **Rest API** en **Heroku** para tener el json y llamarlo con la función **Fetch** combinado con **Async Await** para que funcionara con el código de **Swipper**. Para ver el código visita el archivo **slider.js** ubicado en la ruta **/src/js/slider.js**
 
-Aquí puedes ver el enlace de **Heroku** 
+Las animaciones se realizaron con el **Intersection Observer API** (es una función nativa de javascript)
+
+Aquí puedes ver el enlace del json en **Heroku** 
 
 [https://node-project01-karanda.herokuapp.com/api/slider-home](https://node-project01-karanda.herokuapp.com/api/slider-home)
