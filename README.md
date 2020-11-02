@@ -27,7 +27,7 @@ Los javascript como fueron funciones relativamente pequeñas se crearon unas car
 
 ![enter image description here](https://static-project03-karanda.netlify.app/images/readme/js-structure.png)
 
-Para el slider se utilizó **Swiper** como librería de javascript (sin dependencias) y para el json se creó un **Rest API** en **Heroku** para tener el json y llamarlo con la función **Fetch** combinado con **Async Await** para que funcionara con el código de **Swipper**. 
+Para el slider se utilizó **Swiper** como librería de javascript (sin dependencias) y para el json se creó un **Rest API** en **Heroku** para tener el json y llamarlo con la función **Fetch** combinado con **Async Await** para que funcionara con el código de **Swipper**. Para ver el código visita el archivo **slider.js** ubicado en la ruta **/src/js/slider.js**
 
 Aquí puedes ver el enlace de **Heroku** 
 
