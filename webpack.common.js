@@ -90,6 +90,7 @@ module.exports = {
             patterns: [
                 { from: './src/images', to: './images' },
                 { from: './src/fonts', to: './fonts' },
+                { from: './src/js/slider.js', to: './' },
             ],
         })
     ],
