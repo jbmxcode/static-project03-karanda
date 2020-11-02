@@ -9,4 +9,4 @@ function init() {
 function toggleNav(){
   topnavDisplay.classList.toggle("open");
   topnavButton.classList.toggle("open");
-}
+}  
